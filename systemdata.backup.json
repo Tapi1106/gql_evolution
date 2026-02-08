@@ -584,6 +584,66 @@
                 "returned_date": null,
                 "note": "Půjčeno pro projekt",
                 "_chunk": 0
+            },
+            {
+                "id": "5bb85433-26a1-4019-ac02-db8cfbe1498a",
+                "created": "2026-02-08 21:18:50.952839",
+                "lastchange": "2026-02-08 21:18:50.952839",
+                "createdby_id": "35176143-7a86-4ce0-a611-c5824d750f66",
+                "changedby_id": null,
+                "rbacobject_id": "d75d64a4-bf5f-43c5-9c14-8fda7aff6c09",
+                "asset_id": "3cd6569d-80dd-426d-a92f-3af03d7e0f2c",
+                "borrower_user_id": "76dac14f-7114-4bb2-882d-0d762eab6f4a",
+                "startdate": "2026-01-24 10:00:00",
+                "enddate": "2026-02-24 10:00:00",
+                "returned_date": null,
+                "note": "Půjčeno pro projekt",
+                "_chunk": 0
+            },
+            {
+                "id": "9749d9e0-a3c2-4a2b-b9e3-a127e25f9e43",
+                "created": "2026-02-08 21:36:27.039228",
+                "lastchange": "2026-02-08 21:36:27.039228",
+                "createdby_id": "35176143-7a86-4ce0-a611-c5824d750f66",
+                "changedby_id": null,
+                "rbacobject_id": "d75d64a4-bf5f-43c5-9c14-8fda7aff6c09",
+                "asset_id": "3cd6569d-80dd-426d-a92f-3af03d7e0f2c",
+                "borrower_user_id": "76dac14f-7114-4bb2-882d-0d762eab6f4a",
+                "startdate": "2026-01-24 10:00:00",
+                "enddate": "2026-02-24 10:00:00",
+                "returned_date": null,
+                "note": "Půjčeno pro projekt",
+                "_chunk": 0
+            },
+            {
+                "id": "d0f7694b-2238-4820-af68-1e590a177a71",
+                "created": "2026-02-08 21:36:56.076116",
+                "lastchange": "2026-02-08 21:36:56.076116",
+                "createdby_id": "678a2389-dd49-4d44-88be-28841ae34df1",
+                "changedby_id": null,
+                "rbacobject_id": "d75d64a4-bf5f-43c5-9c14-8fda7aff6c09",
+                "asset_id": "3cd6569d-80dd-426d-a92f-3af03d7e0f2c",
+                "borrower_user_id": "76dac14f-7114-4bb2-882d-0d762eab6f4a",
+                "startdate": "2026-01-24 10:00:00",
+                "enddate": "2026-02-24 10:00:00",
+                "returned_date": null,
+                "note": "Půjčeno pro projekt",
+                "_chunk": 0
+            },
+            {
+                "id": "8a1152b8-5043-4a74-9641-587189d58b64",
+                "created": "2026-02-08 21:37:17.218715",
+                "lastchange": "2026-02-08 21:37:17.218715",
+                "createdby_id": "678a2389-dd49-4d44-88be-28841ae34df1",
+                "changedby_id": null,
+                "rbacobject_id": "d75d64a4-bf5f-43c5-9c14-8fda7aff6c09",
+                "asset_id": "3cd6569d-80dd-426d-a92f-3af03d7e0f2c",
+                "borrower_user_id": "76dac14f-7114-4bb2-882d-0d762eab6f4a",
+                "startdate": "2026-01-24 10:00:00",
+                "enddate": "2026-02-24 10:00:00",
+                "returned_date": null,
+                "note": "Půjčeno pro projekt",
+                "_chunk": 0
             }
         ]
     }
