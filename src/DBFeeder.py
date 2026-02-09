@@ -81,7 +81,10 @@ async def initDB(asyncSessionMaker):
         AssetLoanModel,
     ]
 
-    isDemo = os.environ.get("DEMODATA", None) in ["True", "true", True]
+    isDemo = (
+        os.environ.get("DEMODATA", None) in ["True", "true", True]
+        or os.environ.get("DEMO", None) in ["True", "true", True]
+    )
     if isDemo:
         jsonData = get_demodata()
         await ImportModels(asyncSessionMaker, dbModels, jsonData)

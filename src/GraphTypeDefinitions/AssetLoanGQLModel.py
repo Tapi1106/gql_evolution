@@ -303,6 +303,17 @@ class AssetLoanMutation:
                 _entity=None,
                 _input=loan
             )
+        # Ověř, že asset existuje, jinak vrať srozumitelnou chybu místo FK violation
+        asset_loader = getLoadersFromInfo(info)["AssetModel"]
+        asset_row = await asset_loader.load(loan.asset_id)
+        if asset_row is None:
+            error_code = ErrorCodeUUID("4a8b2c3d-5e6f-4b7c-9d0e-1f2a3b4c5d71")
+            return InsertError[AssetLoanGQLModel](
+                msg=format_error_message(error_code, f"assetId={loan.asset_id}"),
+                code=error_code,
+                _entity=None,
+                _input=loan
+            )
         # Vyplň createdby_id a rbacobject_id (Insert / DB je může očekávat)
         loan.createdby_id = IDType(str(user.get("id")))
         loan.rbacobject_id = IDType("d75d64a4-bf5f-43c5-9c14-8fda7aff6c09")

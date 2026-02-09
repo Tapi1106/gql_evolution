@@ -39,7 +39,8 @@ schema = strawberry.federation.Schema(
     ), 
     scalar_overrides={datetime.timedelta: timedelta._scalar_definition},
     extensions=[],
-    schema_directives=[]
+    schema_directives=[],
+    enable_federation_2=True
     
 )
 
